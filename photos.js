@@ -22,12 +22,21 @@ function populateFigures() {
     var filename;
     var currentFig
 
-    //enter for loop
+    if (figureCount === 3) {
         for (var i = 1; i < 4; i++) {
             filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
             currentFig = document.getElementsByTagName("img")[i - 1];
             currentFig.src = filename;
-    }//end of for loop
+        }//end of for loop
+        
+    } else {
+        for (var i = 0; i < 5; i++) {
+            filename = "images/IMG_0" + photoOrder[i] + "sm.jpg";
+            currentFig = document.getElementsByTagName("img")[i];
+            currentFig.src = filename;
+        }//end of for loop
+    }//end of else
+
 
 }//end of populateFigures function
 
@@ -111,6 +120,7 @@ function previewFive() {
     document.getElementsByTagName("img")[4].src = "images/IMG_0" + photoOrder[4] + "sm.jpg";
 
     figureCount = 5;
+    
     //disable the ‘Show more images’ button after it has been selected once
     var numberButton = document.querySelector("#fiveButton p");
     numberButton.removeEventListener("click", previewFive, false);
