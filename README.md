@@ -10,13 +10,12 @@ March 23, 2018
 Derek Labios
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+I am assigned to add code to complete a carousel photo display.
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://github.com/labios0970/lesson6_javascript3
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. I learned how to take a tag and declare it to a variable.
+2. I learned how to direct a path to an image using JavaScript.
+3. I learned how to use the appendchild function in JavaScript.
